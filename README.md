@@ -24,12 +24,12 @@ When visiting http://localhost:8080, the application should respond with `Hello 
 ## Primary tasks
 
 Your job is to
-
-1. Dockerize the application
-2. Set up CI/CD for the repository
-    - 2.1. Any push to the `main` branch should deploy the application.
+1. create your own branch or fork for repository
+2. Dockerize the application
+3. Set up CI/CD for the repository
+    - 2.1. Any push to your branch or `main` branch in your repository should deploy the application.
     - 2.2. We recommend using GitHub Actions or Azure DevOps pipelines.
-3. Deploy container to GCP - you can signup for a free account @ https://cloud.google.com/free/docs/free-cloud-features
+4. Deploy container to GCP - you can signup for a free account @ https://cloud.google.com/free/docs/free-cloud-features
     - 3.1. The deployed application should be accessible via the internet.
     - 3.2. We recommend using Terraform or CDKTF.
 
